@@ -1,0 +1,96 @@
+
+.formContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+ form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 50%;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+ 
+  .emailList {
+    margin-top: 10px;
+  }
+  
+  .emailList div {
+    display: flex;
+    align-items: center;
+    background-color: #e0e7ff;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .emailList span {
+    margin-right: 10px;
+  }
+  
+  .emailList button {
+    margin-left: auto;
+    padding: 5px 10px;
+    background-color: #ff5c5c;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .emailList button:hover {
+    background-color: #ff3838;
+  }
+  
+  .errorMessage {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  
