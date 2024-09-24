@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Components/Header';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
 import AddNewTask from './Components/AddNewTask';
-import Home from './Components/Page/Page';
+import Home from './Components/Page/NewTask';
 function App() {
   return (
     <Router> 
