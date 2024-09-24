@@ -1,9 +1,20 @@
-import React from 'react'
+import ListTasks from '../components/ListTasks';
+import "./styles.css"
 
 function Home() {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <h1 style={{
+        textAlign: "center"
+      }}>
+        Tasks List
+      </h1>
 
-export default Home
+      <div style={{border: "1px solid #c9c9c937", margin: "20px"}}>
+        <ListTasks />
+      </div>
+    </>
+  )
+};
+
+export default Home;
