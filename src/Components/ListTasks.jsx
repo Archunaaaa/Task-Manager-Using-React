@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import UpdateTask from './UpdateTask';
-// import './listTasks.css';
+import './ListTasks.css';
 
 function ListTasks() {
   const [tasksList, setTasksList] = useState([]);
@@ -25,6 +25,7 @@ function ListTasks() {
 
       // Update the tasks in local storage
       localStorage.setItem('tasks', JSON.stringify(updatedTasks));
+      // localStorage.setItem('Id',updatedTasks.data.data.Id )
     }
   }
 
