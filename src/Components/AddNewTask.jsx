@@ -59,7 +59,6 @@ function AddNewTask() {
     const newEmails = email.split(',').map(e => e.trim()).filter(e => e);
     const invalidEmails = newEmails.filter(e => !validateEmail(e));
   
-    // Check for invalid emails
     if (invalidEmails.length > 0) {
       setErrorMessage(`Invalid email format: ${invalidEmails.join(', ')}`);
       return;
